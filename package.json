@@ -15,6 +15,9 @@
 	"license": "MIT",
 	"name": "@webpowered/rapid-stack-template",
 	"packageManager": "bun@1.1.42",
+	"peerDependencies": {
+		"typescript": "latest"
+	},
 	"private": true,
 	"repository": {
 		"type": "git",
