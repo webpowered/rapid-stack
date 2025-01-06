@@ -1,26 +1,26 @@
 {
-  "author": {
-    "email": "hunar.roop@gmail.com",
-    "name": "Hunar Roop Kahlon"
-  },
-  "bugs": "https://github.com/webpowered/rapid-stack/issues",
-  "description": "An opinionated full-stack app starter for rapid development",
-  "homepage": "https://github.com/webpowered/rapid-stack",
-  "imports": {
-    "#*": "./*"
-  },
-  "license": "MIT",
-  "name": "@webpowered/rapid-stack-template",
-  "packageManager": "bun@1.1.42",
-  "private": true,
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:webpowered/rapid-stack.git"
-  },
-  "scripts": {},
-  "sideEffects": false,
-  "type": "module",
-  "devDependencies": {
-    "@biomejs/biome": "^1.9.4"
-  }
+	"author": {
+		"email": "hunar.roop@gmail.com",
+		"name": "Hunar Roop Kahlon"
+	},
+	"bugs": "https://github.com/webpowered/rapid-stack/issues",
+	"description": "An opinionated full-stack app starter for rapid development",
+	"homepage": "https://github.com/webpowered/rapid-stack",
+	"imports": {
+		"#*": "./*"
+	},
+	"license": "MIT",
+	"name": "@webpowered/rapid-stack-template",
+	"packageManager": "bun@1.1.42",
+	"private": true,
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:webpowered/rapid-stack.git"
+	},
+	"scripts": {},
+	"sideEffects": false,
+	"type": "module",
+	"devDependencies": {
+		"@biomejs/biome": "^1.9.4"
+	}
 }
