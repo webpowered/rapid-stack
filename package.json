@@ -20,7 +20,10 @@
 		"type": "git",
 		"url": "git@github.com:webpowered/rapid-stack.git"
 	},
-	"scripts": {},
+	"scripts": {
+		"format": "bun --bun biome check --write",
+		"lint": "bun --bun biome check"
+	},
 	"sideEffects": false,
 	"type": "module"
 }
