@@ -19,5 +19,8 @@
   },
   "scripts": {},
   "sideEffects": false,
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4"
+  }
 }
