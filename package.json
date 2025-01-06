@@ -5,6 +5,9 @@
 	},
 	"bugs": "https://github.com/webpowered/rapid-stack/issues",
 	"description": "An opinionated full-stack app starter for rapid development",
+	"devDependencies": {
+		"@biomejs/biome": "^1.9.4"
+	},
 	"homepage": "https://github.com/webpowered/rapid-stack",
 	"imports": {
 		"#*": "./*"
@@ -19,8 +22,5 @@
 	},
 	"scripts": {},
 	"sideEffects": false,
-	"type": "module",
-	"devDependencies": {
-		"@biomejs/biome": "^1.9.4"
-	}
+	"type": "module"
 }
