@@ -7,7 +7,8 @@
 	"description": "An opinionated full-stack app starter for rapid development",
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.4",
-		"@types/bun": "^1.1.14"
+		"@types/bun": "^1.1.14",
+		"vite": "^6.0.7"
 	},
 	"homepage": "https://github.com/webpowered/rapid-stack",
 	"imports": {
