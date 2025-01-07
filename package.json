@@ -7,6 +7,7 @@
 	"description": "An opinionated full-stack app starter for rapid development",
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.4",
+		"@react-router/dev": "^7.1.1",
 		"@types/bun": "^1.1.14",
 		"vite": "^6.0.7"
 	},
