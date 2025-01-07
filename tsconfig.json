@@ -8,6 +8,7 @@
 		"checkJs": true,
 		"exactOptionalPropertyTypes": true,
 		"forceConsistentCasingInFileNames": true,
+		"jsx": "react-jsx",
 		"lib": ["dom", "dom.iterable", "es2024"],
 		"module": "preserve",
 		"moduleDetection": "force",
