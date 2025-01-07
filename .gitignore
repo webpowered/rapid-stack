@@ -4,3 +4,6 @@ node_modules
 # React Router
 .react-router
 build
+
+# macOS
+.DS_Store
