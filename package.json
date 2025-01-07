@@ -31,5 +31,8 @@
 		"lint": "bun --bun biome check"
 	},
 	"sideEffects": false,
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@react-router/node": "^7.1.1"
+	}
 }
