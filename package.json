@@ -33,6 +33,7 @@
 	"sideEffects": false,
 	"type": "module",
 	"dependencies": {
-		"@react-router/node": "^7.1.1"
+		"@react-router/node": "^7.1.1",
+		"react-router": "^7.1.1"
 	}
 }
