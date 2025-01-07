@@ -7,6 +7,7 @@
 	"dependencies": {
 		"@react-router/node": "^7.1.1",
 		"isbot": "^5.1.20",
+		"react": "^19.0.0",
 		"react-router": "^7.1.1"
 	},
 	"description": "An opinionated full-stack app starter for rapid development",
@@ -14,6 +15,7 @@
 		"@biomejs/biome": "^1.9.4",
 		"@react-router/dev": "^7.1.1",
 		"@types/bun": "^1.1.14",
+		"@types/react": "^19.0.3",
 		"vite": "^6.0.7"
 	},
 	"homepage": "https://github.com/webpowered/rapid-stack",
