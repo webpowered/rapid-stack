@@ -28,7 +28,8 @@
 	},
 	"scripts": {
 		"format": "bun biome check --write",
-		"lint": "bun biome check"
+		"lint": "bun biome check",
+		"typecheck": "bun tsc"
 	},
 	"sideEffects": false,
 	"type": "module",
