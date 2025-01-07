@@ -38,7 +38,7 @@
 	"scripts": {
 		"format": "bun biome check --write",
 		"lint": "bun biome check",
-		"typecheck": "bun tsc"
+		"typecheck": "scripts/typecheck.bun.sh"
 	},
 	"sideEffects": false,
 	"type": "module"
