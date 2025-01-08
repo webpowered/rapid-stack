@@ -36,6 +36,7 @@
 		"url": "git@github.com:webpowered/rapid-stack.git"
 	},
 	"scripts": {
+		"dev": "bunx --bun vite",
 		"format": "bun biome check --write",
 		"lint": "bun biome check",
 		"typecheck": "scripts/typecheck.bun.sh"
