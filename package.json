@@ -37,6 +37,7 @@
 	},
 	"scripts": {
 		"dev": "bunx --bun vite",
+		"build": "scripts/build.bun.sh",
 		"format": "bun biome check --write",
 		"lint": "bun biome check",
 		"typecheck": "scripts/typecheck.bun.sh"
