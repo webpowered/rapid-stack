@@ -27,7 +27,7 @@ const server = serve({
 		return new Response("Server entry not found", {
 			status: 500,
 		});
-	}
+	},
 });
 
 console.log(styleText("green", `Server is running on ${server.url}`));

@@ -14,7 +14,7 @@ export default async function handleRequest(
 	const userAgent = request.headers.get("user-agent");
 	const shouldWaitForAllContent = isbot(userAgent) || context.isSpaMode;
 
-	if ("renderToReadableStream" in await import("react-dom/server")) {
+	if ("renderToReadableStream" in (await import("react-dom/server"))) {
 		const { renderToReadableStream } = await import("react-dom/server");
 
 		const stream = await renderToReadableStream(
@@ -27,12 +27,11 @@ export default async function handleRequest(
 					if (shellRendered) {
 						console.error(error);
 					}
-				}
-			}
-
+				},
+			},
 		);
 
-		shellRendered = true;		
+		shellRendered = true;
 
 		if (shouldWaitForAllContent) {
 			await stream.allReady;
@@ -48,11 +47,16 @@ export default async function handleRequest(
 
 	const { PassThrough } = await import("node:stream");
 	const { renderToPipeableStream } = await import("react-dom/server");
-	const { createReadableStreamFromReadable } = await import("@react-router/node");
-	const readyOption: keyof RenderToPipeableStreamOptions = (userAgent && isbot(userAgent)) || context.isSpaMode ? "onAllReady" : "onShellReady";
+	const { createReadableStreamFromReadable } = await import(
+		"@react-router/node"
+	);
+	const readyOption: keyof RenderToPipeableStreamOptions =
+		(userAgent && isbot(userAgent)) || context.isSpaMode
+			? "onAllReady"
+			: "onShellReady";
 
 	return new Promise<Response>((resolve, reject) => {
-		const {pipe, abort} = renderToPipeableStream(
+		const { pipe, abort } = renderToPipeableStream(
 			<ServerRouter context={context} url={request.url} />,
 			{
 				[readyOption]: () => {
@@ -63,10 +67,12 @@ export default async function handleRequest(
 
 					headers.set("Content-Type", "text/html");
 
-					resolve(new Response(stream, {
-						headers,
-						status,
-					}));
+					resolve(
+						new Response(stream, {
+							headers,
+							status,
+						}),
+					);
 
 					pipe(body);
 				},
@@ -86,4 +92,4 @@ export default async function handleRequest(
 
 		setTimeout(abort, streamTimeout + 1000);
 	});
-};
+}
