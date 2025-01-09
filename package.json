@@ -41,7 +41,8 @@
 		"format": "bun biome check --write",
 		"lint": "bun biome check",
 		"typecheck": "scripts/typecheck.bun.sh",
-		"typegen": "react-router typegen"
+		"typegen": "react-router typegen",
+		"validate": "scripts/validate.bun.sh"
 	},
 	"sideEffects": false,
 	"type": "module"
