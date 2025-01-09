@@ -8,6 +8,8 @@ const server = serve({
 	fetch: async (request) => {
 		const url = new URL(request.url);
 
+		console.log(request.method, url.pathname);
+
 		if (url.pathname.startsWith("/assets")) {
 			const assetPath = join(cwd(), "build", "client", url.pathname);
 			const asset = file(assetPath);
