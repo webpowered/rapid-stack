@@ -33,7 +33,7 @@
 	"private": true,
 	"repository": {
 		"type": "git",
-		"url": "git@github.com:webpowered/rapid-stack.git"
+		"url": "https://github.com:webpowered/rapid-stack.git"
 	},
 	"scripts": {
 		"dev": "bunx --bun vite",
