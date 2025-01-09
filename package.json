@@ -26,7 +26,7 @@
 	},
 	"license": "MIT",
 	"name": "@webpowered/rapid-stack-template",
-	"packageManager": "bun@1.1.42",
+	"packageManager": "bun@1.1.43",
 	"peerDependencies": {
 		"typescript": "latest"
 	},
