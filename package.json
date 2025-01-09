@@ -38,8 +38,8 @@
 	"scripts": {
 		"dev": "bunx --bun vite",
 		"build": "scripts/build.bun.sh",
-		"format": "bun biome check --write",
-		"lint": "bun biome check",
+		"format": "biome check --write",
+		"lint": "biome check",
 		"typecheck": "scripts/typecheck.bun.sh",
 		"typegen": "react-router typegen",
 		"validate": "scripts/validate.bun.sh"
