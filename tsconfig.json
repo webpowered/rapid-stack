@@ -27,5 +27,6 @@
 		"strict": true,
 		"target": "ES2024",
 		"verbatimModuleSyntax": true
-	}
+	},
+	"exclude": ["build"]
 }
