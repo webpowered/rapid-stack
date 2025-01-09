@@ -40,7 +40,8 @@
 		"build": "scripts/build.bun.sh",
 		"format": "bun biome check --write",
 		"lint": "bun biome check",
-		"typecheck": "scripts/typecheck.bun.sh"
+		"typecheck": "scripts/typecheck.bun.sh",
+		"typegen": "react-router typegen"
 	},
 	"sideEffects": false,
 	"type": "module"

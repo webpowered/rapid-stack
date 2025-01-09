@@ -1,2 +1,2 @@
-bun react-router typegen
+ react-router typegen
 bun tsc
