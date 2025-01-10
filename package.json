@@ -24,6 +24,7 @@
 	},
 	"homepage": "https://github.com/webpowered/rapid-stack",
 	"imports": {
+		"#route:*": "./.react-router/types/*",
 		"#*": "./*"
 	},
 	"license": "MIT",
